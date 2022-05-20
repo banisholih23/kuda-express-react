@@ -49,7 +49,11 @@ class navbar extends Component {
                       </ul>
                     </li>
                     <li><a href="support.html">Support</a></li>
-                    <li><a href="login.html" className="flaticon-user"> Login or Register</a></li>
+                    <li>
+                      <Link to={'/login'}>
+                        Login or Register
+                      </Link>
+                    </li>
                   </ul>
                 </nav>
               </div>
